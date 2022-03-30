@@ -1,5 +1,4 @@
 import pygame
-from queue import PriorityQueue
 import astar
 
 WIDTH = 700
