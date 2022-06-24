@@ -1,19 +1,8 @@
-# Pathfinding Visualier
-This program visualises the processes used to find the optimal path between 2 points. 
-Currently missing significant functionality, as it is in a development phase.
-
-## Features
-
-A variety of algorithms:
- - A* Search
- - Dijkstra's Algorithm - Unsupported
- - Depth-first Search - Unsupported
- - Swarm Algorithm - Unsupported
- - Bidirectional Swarm Algorithm - Unsupported
- - Convergent Swarm Algorithm - Unsupported
+# A* Algorithm Visualier
+This program visualises the process used to find the optimal path between 2 points, using the A* pathfinding algorithm. 
 
 ## Instructions
-
-- Not enough functionality has been implemented for the need of menu instructions.
-- Now, in its simplest state, your first click will assign the starting tile, second click will assign the end tile, and any following interactions will create obstacles. Right-clicking will clear a tile, and space bar will begin the pathfinding algorithm (selectable algorithm in the future, as of now only supports A*). 
-- You are able to clear the grid by pressing 'C' at any time whilst the algorithm is not beinge executed.
+- Download the files and run construct.py in your environment of choice.
+- Clicking tiles on the grid will place objects. Your first click will place the starting point, the second your end point, and any further clicks will place obstacles.
+- You can right-click tiles to clear them. To begin the program, press space bar.
+- If you wish to clear the grid entirely, press C when the algorithm is not being executed.
